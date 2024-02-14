@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Collection</title>
+    <style>
+        body {
+            background-color: #f2f2f2; /* Light grey background */
+            font-family: Arial, sans-serif; /* Set font */
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #333; /* Dark text color */
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style: none; /* Remove bullet points */
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        li {
+            background-color: #fff; /* White background */
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+        }
+        p {
+            color: #333; /* Dark text color */
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff; /* Blue link text color */
+            text-decoration: none;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1><%= user %>'s Repo</h1>
+    <ul>
+        <% collection.forEach(item => { %>
+            <% if(item.file && user === item.user) { %>
+                <li>
+                    <p><%= item.file.filename %></p>
+                    <a href="download/<%= item.file.filename %>">Download File</a>
+                </li>
+            <% } %>
+        <% }); %>
+    </ul>
+
+    <a href="/<%= user %>">Upload files</a>
+    <a href="/">Go to log-in page</a>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+    {
+        "user": "Arka",
+        "text": "First Document",
+        "file": {
+            "fieldname": "file",
+            "originalname": "TCP.txt",
+            "encoding": "7bit",
+            "mimetype": "text/plain",
+            "destination": "C:\\Users\\parth\\OneDrive\\Desktop\\Assignment\\assignment2\\assignment2\\public",
+            "filename": "1707132093083-TCP.txt",
+            "path": "C:\\Users\\parth\\OneDrive\\Desktop\\Assignment\\assignment2\\assignment2\\public\\1707132093083-TCP.txt",
+            "size": 30
+        }
+    },
+    {
+        "user": "admin",
+        "text": "test",
+        "file": {
+            "fieldname": "file",
+            "originalname": "mainwindow.ui",
+            "encoding": "7bit",
+            "mimetype": "text/plain",
+            "destination": "C:\\Users\\HP\\Documents\\GitHub\\ASS-2\\assignment2\\public",
+            "filename": "1707736345215-mainwindow.ui",
+            "path": "C:\\Users\\HP\\Documents\\GitHub\\ASS-2\\assignment2\\public\\1707736345215-mainwindow.ui",
+            "size": 27611
+        }
+    },
+    {
+        "user": "test",
+        "text": "test",
+        "file": {
+            "fieldname": "file",
+            "originalname": "main.cpp",
+            "encoding": "7bit",
+            "mimetype": "text/plain",
+            "destination": "C:\\Users\\HP\\Documents\\GitHub\\ASS-2\\assignment2\\public",
+            "filename": "1707736870568-main.cpp",
+            "path": "C:\\Users\\HP\\Documents\\GitHub\\ASS-2\\assignment2\\public\\1707736870568-main.cpp",
+            "size": 183
+        }
+    }
+]
