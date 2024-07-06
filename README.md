@@ -7,9 +7,6 @@
 
 
 
-4. Atari breakout
-   
-   
-
+## Atari breakout
 https://github.com/Arka2708/Projects/assets/86280798/d11864f9-1e1a-4b23-8d68-9d48367408d4
 
